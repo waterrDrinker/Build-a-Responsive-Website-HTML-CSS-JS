@@ -1,2 +1,2 @@
-# Adaptively responsive website HTML, CSS, JS
+# Adaptively responsive website | HTML, CSS, JS
 
