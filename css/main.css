@@ -21,7 +21,7 @@ body {
 }
 
 .container-right {
-	
+	padding-left: calc((100% - 1750px) / 2 + 15px);
 }
 
 .none {
@@ -168,7 +168,35 @@ body {
 	color: #1F1F1F;
 }
 
-.text {
+/* Slider styles starts */
+
+.slider {
 }
+
+.slider__item {
+}
+
+.slide {
+	display: inline-block;
+	position: relative;
+	padding-left: 80px;
+}
+
+.slide__title {
+	position: absolute;
+	left: 0;
+	bottom: 104px;
+	font-size: 140px;
+	font-weight: 800;
+	background: linear-gradient(90deg, rgba(17,68,85,1) 80px, rgba(255,255, 255, 1) 80px);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.slide__img {
+
+}
+
+/* Slider styles ends */
 
 /* Case studies styles ends */
